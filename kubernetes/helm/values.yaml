@@ -1,1 +1,10 @@
+grafana:
+  url: "http://your-grafana-instance"
+  bearerTokenSecret: 
+    name: "grafana-secret"
+    key: "bearerToken"
+  organizations:
+    - name: "Org One"
+    - name: "Org Two"
+    - name: "Org Three"
 
